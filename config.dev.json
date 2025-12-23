@@ -18,15 +18,17 @@
   },
   "adminBot": [
     "61579792988640",
-    "61580027264521"
+    ""
   ],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": [],
+    "whiteListIds": [
+      "61579792988640"
+    ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "🍁<SAGOR-BOT>🍁",
-  "prefix": "-",
+  "nickNameBot": "DEATH NOTE",
+  "prefix": "!",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -120,7 +122,7 @@
     "updatePresence": true,
     "listenTyping": true,
     "logLevel": "error",
-    "selfListen": true,
+    "selfListen": false,
     "selfListenEvent": true,
     "autoMarkDelivery": false,
     "autoReconnect": false,
